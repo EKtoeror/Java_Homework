@@ -7,6 +7,7 @@ public class Task_3 {
         Scanner iScanner = new Scanner(System.in);
         String calc = iScanner.nextLine();
         String[] array = calc.split(" ");
+
         iScanner.close();
         int a = Integer.parseInt(array[0]);
         int b = Integer.parseInt(array[2]);
